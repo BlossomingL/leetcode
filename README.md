@@ -8,25 +8,7 @@ Trie树，是一种树形结构，是一种哈希树的变种。典型应用是�
 ![字典树](images/字典树.png)  
 代码：[字典树实现代码](字典树(Trie)/实现字典树.py)  
 Python版本的代码借鉴了两个版本:  
-版本一：  
-···python  
-class Node:
-    def __init__(self):
-        self.child = {}
-        self.end = False
-class WordDictionary:
-    def __init__(self):
-        self.root = Node()
-
-    def addWord(self, word: str) -> None:
-        node = self.root
-        for c in word:
-            if c not in node.child:
-                node.child[c] = Node()
-            node = node.child[c]
-        node.end = True
-
-···
+版本一：[代码](字典树(Trie)/实现字典树.py) 版本二：[代码]()
 leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/), [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/)  
 
 ***
