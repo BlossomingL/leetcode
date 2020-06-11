@@ -6,7 +6,7 @@ Trie树，是一种树形结构，是一种哈希树的变种。典型应用是�
 常用操作：插入，查找，前缀匹配 
 ![字典树](images/字典树.png)  
 [字典树实现代码](字典树(Trie)/实现字典树.py) 
-leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)
+leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/)  
 
 
 ## 回溯算法
