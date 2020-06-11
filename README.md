@@ -8,7 +8,7 @@ Trie树，是一种树形结构，是一种哈希树的变种。典型应用是�
 ![字典树](images/字典树.png)  
 代码：[字典树实现代码](字典树(Trie)/实现字典树.py)  
 Python版本的代码借鉴了两个版本:  
-版本一：
+版本一：  
 ···python
 class Node:
     def __init__(self):
