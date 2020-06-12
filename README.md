@@ -8,7 +8,7 @@ Trie树，是一种树形结构，是一种哈希树的变种。典型应用是�
 ![字典树](images/字典树.png)  
 代码：[字典树实现代码](字典树(Trie)/实现字典树.py)  
 Python版本的代码借鉴了两个版本:  
-版本一：[代码](字典树(Trie)/实现 Trie (前缀树)版本1.py) 版本二：[代码](字典树(Trie)/实现 Trie (前缀树)版本2.py)  
+版本一：[代码](字典树(Trie)/实现Trie(前缀树)版本1.py) 版本二：[代码](字典树(Trie)/实现Trie(前缀树)版本2.py)  
 这两个版本的唯一不同的就是定义存储字典树的数据结构稍微有点差别，前者仅仅使用一个字典以及是否为最后一个单词的标记，后者为每个单词设置一个对象，对象中包含下一个单词和是否为最后一个单词。有时候后面一个版本可能会方便一点。  
 leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/), [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/), [单词替换](https://leetcode-cn.com/problems/replace-words/)
 
