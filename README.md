@@ -4,6 +4,8 @@
 [刷题tag链接](https://zhuanlan.zhihu.com/p/126546914?utm_source=wechat_session&utm_medium=social&utm_oi=27134168924160%E3%80%82)  
 *线性DP  
 最长上升子序列 (LIS)，最长公共子序列 (LCS)
+-区间DP
+*背包DP  
 
 ***  
 ## 字典树
