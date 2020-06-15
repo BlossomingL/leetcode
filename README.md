@@ -1,5 +1,10 @@
 # leetcode刷题记录
 ***  
+### Python相关  
+对二维数组（或者字典）按按第一个元素升序 sorted(arr, key=lambda x:x[0])  
+对二维数组（或者字典）按先按第一个元素升序再按第二个元素降序 sorted(arr, key=lambda x: (x[0], -x[1]))  
+
+***  
 ### 动态规划  
 [刷题tag链接](https://zhuanlan.zhihu.com/p/126546914?utm_source=wechat_session&utm_medium=social&utm_oi=27134168924160%E3%80%82)  
 * 线性DP：最长上升子序列 (LIS)，最长公共子序列 (LCS)
