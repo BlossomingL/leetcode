@@ -8,10 +8,24 @@
 ### 动态规划  
 [刷题tag链接](https://zhuanlan.zhihu.com/p/126546914?utm_source=wechat_session&utm_medium=social&utm_oi=27134168924160%E3%80%82)  
 * 线性DP：  
- |table1|vlue|  
-|--|--|  
-| id | 1 |  
-| name | user |  
+Models | Caffe | Keras | TensorFlow | CNTK | MXNet | PyTorch  | CoreML | ONNX
+:-----:|:-----:|:-----:|:----------:|:----:|:-----:|:--------:|:------:|:-----:|
+[VGG 19](https://arxiv.org/abs/1409.1556.pdf) | √ | √ | √ | √ | √ | √ | √ | √
+[Inception V1](https://arxiv.org/abs/1409.4842v1) | √ | √ | √ | √ | √ | √ | √ | √
+[Inception V3](https://arxiv.org/abs/1512.00567)  | √ | √ | √ | √ | √ | √ | √ | √
+[Inception V4](https://arxiv.org/abs/1512.00567)  | √ | √ | √ | o | √ | √ | √ | √
+[ResNet V1](https://arxiv.org/abs/1512.03385)                               |   ×   |   √   |     √      |   o  |   √   |    √ | √ | √
+[ResNet V2](https://arxiv.org/abs/1603.05027)                               |   √   |   √   |     √      |   √  |   √   | √ | √ | √
+[MobileNet V1](https://arxiv.org/pdf/1704.04861.pdf)                        |   ×   |   √   |     √      |   o  |   √   |    √       | √ | √ | √
+[MobileNet V2](https://arxiv.org/pdf/1704.04861.pdf)                        |   ×   |   √   |     √      |   o  |   √   |    √       | √ | √ | √
+[Xception](https://arxiv.org/pdf/1610.02357.pdf)                            |   √   |   √   |     √      |   o  |   ×   |    √ | √ | √ | √
+[SqueezeNet](https://arxiv.org/pdf/1602.07360)                              |   √   |   √   |     √      |   √  |   √   |    √ | √ | √ | √
+[DenseNet](https://arxiv.org/abs/1608.06993)                                |   √   |   √   |     √      |   √  |   √   |    √       | √ | √
+[NASNet](https://arxiv.org/abs/1707.07012)                                  |   x   |   √   |     √      |   o  |   √   | √ | √ | x
+[ResNext](https://arxiv.org/abs/1611.05431)                                 |   √   |   √   |     √      |   √  |   √   | √ | √ | √ | √ | √
+[voc FCN](https://people.eecs.berkeley.edu/~jonlong/long_shelhamer_fcn.pdf) |       |       |     √      |   √  |       |
+Yolo3  
+
 最长上升子序列 (LIS)，最长公共子序列 (LCS)，[俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)
 - 区间DP：[最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/), [统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences/) [解析](https://blog.csdn.net/heshiliqiu/article/details/105968340), [戳气球](https://leetcode-cn.com/problems/burst-balloons/)★ [奇怪的打印机](https://leetcode-cn.com/problems/strange-printer/)★[解析](https://www.cnblogs.com/grandyang/p/8319913.html)
 ![区间DP的求解过程](images/区间dp.png)  
