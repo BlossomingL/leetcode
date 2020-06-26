@@ -13,7 +13,7 @@
 - 区间DP：[最长回文子序列](https://leetcode-cn.com/problems/longest-palindromic-subsequence/), [统计不同回文子序列](https://leetcode-cn.com/problems/count-different-palindromic-subsequences/) [解析](https://blog.csdn.net/heshiliqiu/article/details/105968340), [戳气球](https://leetcode-cn.com/problems/burst-balloons/)★, [奇怪的打印机](https://leetcode-cn.com/problems/strange-printer/) [解析](https://www.cnblogs.com/grandyang/p/8319913.html)★
 ![区间DP的求解过程](images/区间dp.png)  
 * 背包DP: [分割等和子集](https://leetcode-cn.com/problems/partition-equal-subset-sum/)(01背包问题), [零钱兑换](https://leetcode-cn.com/problems/coin-change/)(完全背包), [零钱兑换 II
-](https://leetcode-cn.com/problems/coin-change-2/)(完全背包)  
+](https://leetcode-cn.com/problems/coin-change-2/)(完全背包), [一和零](https://leetcode-cn.com/problems/ones-and-zeroes/)(二维费用背包)  
 
 ***  
 ## 字典树
