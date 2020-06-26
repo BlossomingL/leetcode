@@ -2,9 +2,9 @@
 ***  
 ### Python相关  
 对二维数组（或者字典）按第一个元素升序： sorted(arr, key=lambda x:x[0])  
-对二维数组（或者字典）先按第一个元素升序再按第二个元素降序： sorted(arr, key=lambda x: (x[0], -x[1]))
-创建二维数组(m * n)：dp = [[[0] * n] for _ in range(m)] 而 不能用[[0] * m] * n这是错误的
-创建三维数组(k * m * n)：dp = [[[0] * n for _ in range(m)] for _ in range(k)]  
+对二维数组（或者字典）先按第一个元素升序再按第二个元素降序： sorted(arr, key=lambda x: (x[0], -x[1]))  
+创建二维数组(m * n)：dp = [[[0] * n] for _ in range(m)] 而 不能用[[0] * m] * n这是错误的  
+创建三维数组(k * m * n)：dp = [[[0] * n for _ in range(m)] for _ in range(k)]   
 
 ***  
 ### 动态规划  
