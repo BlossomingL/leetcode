@@ -34,4 +34,7 @@ leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problem
 ## 回溯算法
 
 解决回溯问题最好的方法就是先将树形图画出来，举个例子对于简单的全排列问题，即求集合｛1,2,3｝的全排列。画出树形图如下：
-![全排列](images/全排列.png)
+![全排列](images/全排列.png)  
+
+## 牛客  
+[整数分块](https://blog.csdn.net/duanghaha/article/details/82863766)
