@@ -37,6 +37,6 @@ leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problem
 ![全排列](images/全排列.png)  
 
 ## 牛客  
-[整数分块](https://blog.csdn.net/duanghaha/article/details/82863766) [快速幂](https://github.com/BlossomingL/leetcode/blob/master/%E7%89%9B%E5%AE%A2/%E5%BF%AB%E9%80%9F%E5%B9%82.py)
+[整数分块](https://blog.csdn.net/duanghaha/article/details/82863766) [快速幂](https://github.com/BlossomingL/leetcode/blob/master/%E7%89%9B%E5%AE%A2/%E5%BF%AB%E9%80%9F%E5%B9%82.py)  
 牛客编程巅峰赛S1第7场 - 黄金&钻石  
 [数列求值](https://ac.nowcoder.com/acm/contest/6631/C)
