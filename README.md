@@ -37,4 +37,5 @@ leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problem
 ![全排列](images/全排列.png)  
 
 ## 牛客  
-[整数分块](https://blog.csdn.net/duanghaha/article/details/82863766)
+[整数分块](https://blog.csdn.net/duanghaha/article/details/82863766)  
+[快速幂]()
