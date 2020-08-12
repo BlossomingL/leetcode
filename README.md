@@ -32,7 +32,7 @@ def bfs(start, graph, n):
                 visited[x] = 1
                 queue.append(x)
 ```
-相关题目：(克隆图)[https://leetcode-cn.com/problems/clone-graph/]
+相关题目：[克隆图](https://leetcode-cn.com/problems/clone-graph/)
 ***  
 ## 动态规划  
 [刷题tag链接](https://zhuanlan.zhihu.com/p/126546914?utm_source=wechat_session&utm_medium=social&utm_oi=27134168924160%E3%80%82)  
