@@ -1,4 +1,4 @@
-# leetcode刷题记录
+# leetcode刷题记录(截止2020-08-12已做278题)
 ***  
 ### Python相关  
 对二维数组（或者字典）按第一个元素升序： sorted(arr, key=lambda x:x[0])  
