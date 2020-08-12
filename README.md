@@ -7,6 +7,13 @@
 创建三维数组(k * m * n)：dp = [[[0] * n for _ in range(m)] for _ in range(k)]   
 
 ***  
+## 图  
+```java  
+  
+//这里放你的代码
+  
+```
+***  
 ## 动态规划  
 [刷题tag链接](https://zhuanlan.zhihu.com/p/126546914?utm_source=wechat_session&utm_medium=social&utm_oi=27134168924160%E3%80%82)  
 * 线性DP: 最长上升子序列 (LIS)，最长公共子序列 (LCS)，[俄罗斯套娃信封问题](https://leetcode-cn.com/problems/russian-doll-envelopes/)
