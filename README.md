@@ -11,7 +11,14 @@
 ```python    
   
 # 图的DFS遍历
-  
+def dfs(start, graph, visited):
+    visited[start] = 1
+    print(start)
+    for x in graph[start]:
+        if visited[x] == 0:
+            visited[x] = 1
+            dfs(x, graph, visited)
+
 ```
 ***  
 ## 动态规划  
