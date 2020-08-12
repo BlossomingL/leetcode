@@ -9,8 +9,7 @@
 ***  
 ## 图  
 ```python    
-  
-# 图的DFS遍历
+# 邻接表形式图的DFS遍历(递归)
 def dfs(start, graph, visited):
     visited[start] = 1
     print(start)
@@ -19,7 +18,21 @@ def dfs(start, graph, visited):
             visited[x] = 1
             dfs(x, graph, visited)
 
+# 邻接表形式图的BFS遍历
+def bfs(start, graph, n):
+    queue = []
+    visited = {}
+    queue.append(start)
+    visited[start] = 1
+    while queue:
+        node = queue.pop(0)
+        print(node)
+        for x in graph[node]:
+            if x not in visited:
+                visited[x] = 1
+                queue.append(x)
 ```
+相关题目：(克隆图)[https://leetcode-cn.com/problems/clone-graph/]
 ***  
 ## 动态规划  
 [刷题tag链接](https://zhuanlan.zhihu.com/p/126546914?utm_source=wechat_session&utm_medium=social&utm_oi=27134168924160%E3%80%82)  
