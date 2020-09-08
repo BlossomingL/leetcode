@@ -62,7 +62,7 @@ leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problem
 * 各大排序算法时空复杂度  
 ![时空复杂度](https://github.com/BlossomingL/leetcode/blob/master/images/sort_complexity.png)  
 * 三个常见面试手撕排序
-- 快速排序  
+    * 快速排序  
 ```python
 def get_pivot(arr, i, j):
     tmp = arr[i]
@@ -101,8 +101,8 @@ def main():
 if __name__ == '__main__':
     main()
 ```
-***  
-- 堆排序  
+
+    * 堆排序  
 ```python
 def heapify(arr, n, i):
     tmp = arr[i]
@@ -136,6 +136,8 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
+***
 ## 回溯算法
 
 解决回溯问题最好的方法就是先将树形图画出来，举个例子对于简单的全排列问题，即求集合｛1,2,3｝的全排列。画出树形图如下：
