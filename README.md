@@ -62,7 +62,7 @@ leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problem
 * 各大排序算法时空复杂度  
 ![时空复杂度](https://github.com/BlossomingL/leetcode/blob/master/images/sort_complexity.png)  
 * 三个常见面试手撕排序
-    * 快速排序
+- 快速排序
 ```python
 def get_pivot(arr, i, j):
     tmp = arr[i]
@@ -101,8 +101,7 @@ def main():
 if __name__ == '__main__':
     main()
 ```  
-
-    * 堆排序  
+- 堆排序  
 ```python
 def heapify(arr, n, i):
     tmp = arr[i]
