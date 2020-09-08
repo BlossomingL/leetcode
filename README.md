@@ -61,8 +61,81 @@ leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problem
 ## 排序算法
 * 各大排序算法时空复杂度  
 ![时空复杂度](https://github.com/BlossomingL/leetcode/blob/master/images/sort_complexity.png)  
+* 三个常见面试手撕排序
+- 快速排序  
+```python
+def get_pivot(arr, i, j):
+    tmp = arr[i]
 
-***
+    while i < j:
+
+        while i < j and arr[j] >= tmp:
+            j -= 1
+        if i < j:
+            arr[i], arr[j] = arr[j], arr[i]
+            i += 1
+
+        while i < j and arr[i] <= tmp:
+            i += 1
+        if i < j:
+            arr[i], arr[j] = arr[j], arr[i]
+            j -= 1
+
+    arr[i] = tmp
+    return i
+
+
+def quicksort(arr, left, right):
+    if left < right:
+        pivot = get_pivot(arr, left, right)
+        quicksort(arr, left, pivot - 1)
+        quicksort(arr, pivot + 1, right)
+
+
+def main():
+    arr = list(map(int, input().split()))
+    quicksort(arr, 0, len(arr) - 1)
+    print(arr)
+
+
+if __name__ == '__main__':
+    main()
+```
+***  
+- 堆排序  
+```python
+def heapify(arr, n, i):
+    tmp = arr[i]
+    max_idx = i
+    if 2 * i + 1 < n and arr[2 * i + 1] > tmp:
+        max_idx = 2 * i + 1
+    if 2 * i + 2 < n and arr[2 * i + 2] > arr[max_idx]:
+        max_idx = 2 * i + 2
+    if max_idx != i:
+        arr[i], arr[max_idx] = arr[max_idx], arr[i]
+        heapify(arr, n, max_idx)
+
+
+def heap_sort(arr):
+    n = len(arr)
+    # 建立大顶堆
+    for i in range((n - 2) // 2, -1, -1):
+        heapify(arr, n, i)
+    # 逐次交换第一个元素和最后一个元素,然后重新heapify
+    for i in range(n - 1, -1, -1):
+        arr[i], arr[0] = arr[0], arr[i]
+        heapify(arr, i, 0)
+
+
+def main():
+    arr = [1, 3, 2, 5, 4]
+    heap_sort(arr)
+    print(arr)
+
+
+if __name__ == '__main__':
+    main()
+```
 ## 回溯算法
 
 解决回溯问题最好的方法就是先将树形图画出来，举个例子对于简单的全排列问题，即求集合｛1,2,3｝的全排列。画出树形图如下：
