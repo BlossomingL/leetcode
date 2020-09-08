@@ -56,8 +56,14 @@ Python版本的代码借鉴了两个版本:
 版本二：[代码](https://github.com/BlossomingL/leetcode/blob/master/%E5%AD%97%E5%85%B8%E6%A0%91(Trie)/%E5%AE%9E%E7%8E%B0%20Trie%20(%E5%89%8D%E7%BC%80%E6%A0%91)%E7%89%88%E6%9C%AC2.py)  
 这两个版本的唯一不同的就是定义存储字典树的数据结构稍微有点差别，前者仅仅使用一个字典以及是否为最后一个单词的标记，后者为每个单词设置一个对象，对象中包含下一个单词和是否为最后一个单词。有时候后面一个版本可能会方便一点。  
 leetcode相关题目：[实现 Trie (前缀树)](https://leetcode-cn.com/problems/implement-trie-prefix-tree/), [添加与搜索单词 - 数据结构设计](https://leetcode-cn.com/problems/add-and-search-word-data-structure-design/), [单词替换](https://leetcode-cn.com/problems/replace-words/)
-***
+***  
 
+## 回溯算法
+
+解决回溯问题最好的方法就是先将树形图画出来，举个例子对于简单的全排列问题，即求集合｛1,2,3｝的全排列。画出树形图如下：
+![全排列](images/全排列.png)  
+
+***
 ## 排序算法
 * 各大排序算法时空复杂度  
 ![时空复杂度](https://github.com/BlossomingL/leetcode/blob/master/images/sort_complexity.png)  
@@ -135,12 +141,44 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+* 归并排序
+```python
+def merge(arr1, arr2):
+    n1, n2 = len(arr1), len(arr2)
+    i, j = 0, 0
+    res = []
+    while i < n1 and j < n2:
+        if arr1[i] < arr2[j]:
+            res.append(arr1[i])
+            i += 1
+        else:
+            res.append(arr2[j])
+            j += 1
+    if i < n1:
+        res.extend(arr1[i:])
+    if j < n2:
+        res.extend(arr2[j:])
+    return res
 
+
+def merge_sort(arr):
+    if len(arr) <= 1:
+        return arr
+    mid = len(arr) // 2
+    left_arr = merge_sort(arr[:mid])
+    right_arr = merge_sort(arr[mid:])
+    return merge(left_arr, right_arr)
+
+
+def main():
+    arr = [1, 3, 2, 5, 4]
+    print(merge_sort(arr))
+
+
+if __name__ == '__main__':
+    main()
+```
 ***
-## 回溯算法
-
-解决回溯问题最好的方法就是先将树形图画出来，举个例子对于简单的全排列问题，即求集合｛1,2,3｝的全排列。画出树形图如下：
-![全排列](images/全排列.png)  
 
 ## 牛客  
 [整数分块](https://blog.csdn.net/duanghaha/article/details/82863766) [快速幂](https://github.com/BlossomingL/leetcode/blob/master/%E7%89%9B%E5%AE%A2/%E5%BF%AB%E9%80%9F%E5%B9%82.py)  
