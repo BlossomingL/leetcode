@@ -1,9 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="9e0f3652-471c-43e9-b028-885aa1a2d749" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/排序/归并排序.py" beforeDir="false" afterPath="$PROJECT_DIR$/排序/归并排序.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,10 +51,10 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/study/program/2020秋招笔试" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="fileTemplates" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -48,7 +65,7 @@
       <recent name="C:\Users\Administrator\Desktop\leetcode\回溯\子集类" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.归并排序">
+  <component name="RunManager" selected="Python.newton_method">
     <configuration name="我能赢吗" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="leetcode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -176,9 +193,52 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="newton_method" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/机器学习相关" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/机器学习相关/newton_method.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="leetcode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.归并排序" />
+        <item itemvalue="Python.newton_method" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.我能赢吗" />
       </list>
     </recent_temporary>
@@ -206,30 +266,45 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1224" height="192" key="GridCell.Tab.0.bottom" timestamp="1599535942562">
+    <state x="453" y="131" key="FileChooserDialogImpl" timestamp="1599622635798">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="192" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599535942562" />
-    <state width="1224" height="192" key="GridCell.Tab.0.center" timestamp="1599535942562">
+    <state x="453" y="131" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1599622635798" />
+    <state width="1259" height="214" key="GridCell.Tab.0.bottom" timestamp="1599629405564">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="192" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599535942562" />
-    <state width="1224" height="192" key="GridCell.Tab.0.left" timestamp="1599535942562">
+    <state width="1259" height="214" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1599629405564" />
+    <state width="1259" height="214" key="GridCell.Tab.0.center" timestamp="1599629405563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="192" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599535942562" />
-    <state width="1224" height="192" key="GridCell.Tab.0.right" timestamp="1599535942562">
+    <state width="1259" height="214" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1599629405563" />
+    <state width="1259" height="214" key="GridCell.Tab.0.left" timestamp="1599629405563">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1224" height="192" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599535942562" />
-    <state x="148" y="0" key="SettingsEditor" timestamp="1599532599300">
+    <state width="1259" height="214" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1599629405563" />
+    <state width="1259" height="214" key="GridCell.Tab.0.right" timestamp="1599629405564">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="148" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599532599300" />
+    <state width="1259" height="214" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1599629405564" />
+    <state x="148" y="0" key="SettingsEditor" timestamp="1599621531897">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="148" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1599621531897" />
   </component>
   <component name="masterDetails">
     <states>
