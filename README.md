@@ -1,12 +1,16 @@
 # leetcode刷题记录(截止2020-08-12已做278题)
 ***  
-### Python相关  
+## Python相关  
 对二维数组（或者字典）按第一个元素升序： sorted(arr, key=lambda x:x[0])  
 对二维数组（或者字典）先按第一个元素升序再按第二个元素降序： sorted(arr, key=lambda x: (x[0], -x[1]))  
 创建二维数组(m * n)：dp = [[[0] * n] for _ in range(m)] 而 不能用[0] * m] * n这是错误的  
 创建三维数组(k * m * n)：dp = [[[0] * n for _ in range(m)] for _ in range(k)]   
 
 ***  
+## 机器学习相关  
+[牛顿法求根号n的根](https://github.com/BlossomingL/leetcode/blob/master/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%9B%B8%E5%85%B3/newton_method.py)  
+
+***
 ## 图  
 ```python    
 # 邻接表形式图的DFS遍历(递归)
